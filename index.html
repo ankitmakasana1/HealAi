@@ -424,29 +424,20 @@
         <div class="container">
           <h2>How it works</h2>
           <p>
-            We combine neuroscience, psychology, physiology and Deep Learning to
-            produce an Affective AI engine. It is the intersection between
-            Affective Computing and Artificial Intelligence.
+            Experience the magic of Heal AI as it seamlessly blends neuroscience, psychology, and artificial intelligence to revolutionize your wellness journey.
           </p>
 
-          <h4>Video Capture</h4>
+          <h4>Scan</h4>
           <h6>
-            Our Technology starts by capturing images of the subject using any
-            conventional video camera including those found in a smartphone.
+            With Heal AI, a simple video capture using your device's camera initiates the process. Our advanced technology swiftly recognizes your face, ensuring accurate analysis of key facial regions.
           </h6>
-          <h4>Face Detection and Tracking</h4>
+          <h4>Measure</h4>
           <h6>
-            Heal AI automatically detects and tracks your face identifying key
-            regions of interest (ROIs).
+            Unlock the secrets within your physiology with Heal AI's sophisticated blood flow analysis. By harnessing the translucent nature of human skin, we extract vital data for a comprehensive understanding of your well-being.
           </h6>
-          <h4>Blood Flow Data Extraction</h4>
+          <h4>Results</h4>
           <h6>
-            Human skin is translucent. Light and its respective wavelengths are
-            reflected at different layers below the skin and can be used to
-            reveal blood flow information in the human face. This information is
-            captured by and contained in conventional video images. Heal Ai
-            technology extracts this information and sends it securely up to the
-            cloud to be processed by our cloud-based Affective AI engine.
+            Explore the transformative power of Heal AI as it delivers insightful results processed by our cutting-edge AI Health engine. From heart rate to stress levels, our personalized reports empower you to make informed decisions for a healthier lifestyle.
           </h6>
         </div>
       </section>
@@ -498,15 +489,14 @@
           }
         });
       }
+      
+      // Remove class 
+      $(document).ready(function() {
+        $(document).on('click', 'body', function() {
+          $('.navbar-collapse.show').removeClass('show');
+        })
+      });
 
-      // Sticky Navbar
-      $(window).scroll(function(){
-            if($(this).scrollTop() > 100){
-                $('.navbar').addClass('sticky')
-            } else{
-                $('.navbar').removeClass('sticky')
-            }
-        });
     </script>
   </body>
 </html>

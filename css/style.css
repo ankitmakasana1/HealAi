@@ -48,16 +48,6 @@ body {
   z-index: 999;
 }
 
-.sticky {
-  position: fixed;
-  top: 40px;
-  max-width: 1180px;
-  margin: auto;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
 .navbar-brand img {
   max-width: 150px;
 }
@@ -289,7 +279,7 @@ body {
   color: #6c6c72;
   margin-top: 32px;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .hiw-div h6 {
@@ -387,11 +377,7 @@ footer ul {
     margin-top: 0;
     padding: 26px;
   }
-
-  .sticky {
-    top: 0;
-  }
-
+  
   .navbar-collapse {
     position: absolute;
     left: 0;
