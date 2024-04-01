@@ -637,3 +637,14 @@ footer ul {
     margin-left: 0;
   }
 }
+
+@media only screen and (max-width: 375px)
+{
+  .hero-sec .details-div h1 {
+    font-size: 26px;
+  }
+  .hero-sec .details-div h1 span::after {
+    width: 206px;
+    height: 54px;
+  }
+}
