@@ -337,16 +337,6 @@ footer ul {
   font-weight: 600;
 }
 
-/* Scroll margin css start */
-
-.about-us {
-  scroll-margin-top: 120px;
-}
-
-.hiw-div {
-  scroll-margin-top: 120px;
-}
-
 /* Media css start */
 
 @media only screen and (max-width: 1100px) {
@@ -377,7 +367,7 @@ footer ul {
     margin-top: 0;
     padding: 26px;
   }
-  
+
   .navbar-collapse {
     position: absolute;
     left: 0;
